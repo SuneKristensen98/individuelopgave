@@ -71,6 +71,8 @@ public class HovedMenu extends Application {
 				} else
 					hentPerson.setText("Prøv igen");
 
+				// what to do
+				
 			}
 		});
 		
