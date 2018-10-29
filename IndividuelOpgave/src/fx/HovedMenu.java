@@ -67,7 +67,7 @@ public class HovedMenu extends Application {
 				new PropertiesFactory();
 				Properties property = PropertiesFactory.makeProperties();
 				getProperty(tfKey);
-				Properties property = property.hent(tfKey.getProperty());
+				Properties property = property.hent(tfKey.getProperty(String));
 				if (ven != null) {
 					hentProperty.setProperty(property.toString());
 				} else
